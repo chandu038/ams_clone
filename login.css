@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.first-box{
+    position: relative;
+    width:1268px;
+    height:540px;
+    background-color:#3d3f84;
+    color:red;
+    left:5px;
+    top:5px;
+    
+}
+.logo{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid red;
+    left: 550px;
+    top: 10px;
+}
+.heading{
+    color:white;
+    position: relative;
+    align-items: center;
+    left:300px;
+    bottom:40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    align-content: center;
+}
+.login-box{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background-color: antiquewhite;
+    left: 280px;
+    top:50px;
+    border-radius: 10px;
+    border:2px solid green;
+}
+.user{
+    position: relative;
+    left: 275px;
+    border-inline:initial;
+    height: 30px;
+    border-radius: 0px;
+    text-align: center;
+    background-color: #E6B9A6;
+    color:black;
+    font-weight: bold;
+}
+.password{
+    position: relative;
+    left: 80px;
+    border-inline:initial;
+    height: 30px;
+    border-radius:0px;
+    text-align: center;
+    background-color: #E6B9A6;
+    color:black;
+    top:70px;
+    font-weight: bold;
+}
+.btn{
+    position: relative;
+    left: 533px;
+    width: 241px;
+    bottom: 34px;
+    height: 36px;
+    background: #987070;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+.btn:hover {
+    background-color: #C738BD;
+    color:blue;
+    cursor:pointer;
+}
+.btn a {
+    text-decoration: none;
+    color:white;
+}
+.user:hover{
+    background-color: #E49BFF;
+}
+.password:hover{
+    background-color: #E49BFF;
+}
